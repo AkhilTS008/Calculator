@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+/* button{
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50px;
+    font-weight: lighter;
+    border: none;
+    background-color: rgb(71, 65, 65);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+#display{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 130px;
+    margin-left: 20px;
+    background-color: rgb(196, 185, 185);
+    
+} */
+
+
+#display {
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(196, 185, 185);
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(71, 65, 65);
+    color: white;
+    cursor: pointer;
+}
+
+#calculator{
+
+    background-color: black;
+    width: 320px;          /* Fixed width is often better than 20% */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.95);
+}
